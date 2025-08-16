@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class FuelStation {
     private static final String url = "jdbc:postgresql://localhost:5432/db3";
     private static final String user = "postgres";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         double petrolprice = 95.0;
         double dieselprice = 88.0;
@@ -283,4 +283,5 @@ public class FuelStation {
         System.out.println("Thanks for visit ");
     }
 }
+
 
