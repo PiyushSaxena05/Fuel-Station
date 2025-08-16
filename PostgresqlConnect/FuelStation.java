@@ -1,5 +1,3 @@
-package JDBC.PostgreSQL;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -285,3 +283,4 @@ public class FuelStation {
         System.out.println("Thanks for visit ");
     }
 }
+
