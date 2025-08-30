@@ -14,7 +14,7 @@ public class FuelStation {
         double cngprice = 77.0;
 
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         }catch (ClassNotFoundException e){
             System.out.println(e.getMessage());
         }
@@ -283,4 +283,5 @@ public class FuelStation {
         System.out.println("Thanks for visit ");
     }
 }
+
 
